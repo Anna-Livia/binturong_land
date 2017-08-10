@@ -1,10 +1,7 @@
 
 #!/bin/sh
 
-DIR=$(dirname "$0")
-
-cd $DIR/..
-
+echo $(git status -s)
 if [[ $(git status -s) ]]
 then
     echo "The working directory is dirty. Please commit any pending changes."
