@@ -1,4 +1,4 @@
 baseURL = "https://anna-livia.github.io/binturong_land/"
 languageCode = "en-us"
 title = "My New `binturong Site"
-theme = "hyde"
+theme = "minimal"
